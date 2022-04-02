@@ -1,0 +1,588 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "segoe ui light";
+}
+.navbar {
+  width: 100%;
+}
+.navbar .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+}
+.navbar .navbar-brand {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 38px;
+  color: white;
+}
+.home {
+  background-image: url(../images/intro-bg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.home .layer {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.home .caption {
+  height: 100%;
+}
+.layer h1 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 86px;
+}
+@media screen and (max-width: 600px) {
+  .layer h1 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+}
+.layer span::after {
+  content: " ";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  animation-name: typing;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+#about {
+  background-color: #f5f5f5;
+}
+.about h6 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #1e1e1e;
+}
+.about span {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #1e1e1e;
+}
+.about h5 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  color: #1e1e1e;
+}
+.about p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #4e4e4e;
+}
+.about .brdr {
+  height: 3px;
+  width: 80px;
+  background-color: #0078ff;
+}
+@media screen and (max-width: 600px) {
+  .about .user-Info {
+    margin-top: 30px;
+  }
+  .about .about-Info {
+    margin-top: 30px;
+  }
+}
+.services {
+  background-color: #f5f5f5;
+}
+.services h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #1e1e1e;
+}
+.services .line {
+  width: 50px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: auto;
+}
+.services .icon {
+  width: 120px;
+  height: 120px;
+  border: 8px solid #0078ff;
+  border-radius: 50%;
+  transition: all 1s;
+}
+.services .icon:hover {
+  border: 8px solid #cde1f8;
+  background-color: #0078ff;
+  border-radius: 50%;
+}
+.services .ix {
+  transition: all 1s;
+}
+.services .icon:hover i {
+  color: white;
+}
+.services h2 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #1e1e1e;
+}
+#work {
+  background-image: url(../images/post-3.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  height: 60vh;
+}
+.work .layer1 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 120, 255, 0.8);
+}
+.work p {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #ffffff;
+}
+.work span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+.work .icon {
+  width: 80px;
+  height: 80px;
+  border: 8px solid #cde1f8;
+  border-radius: 50%;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .work p {
+    margin-bottom: 0px;
+  }
+  #work {
+    height: auto;
+  }
+}
+.portfolio h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #1e1e1e;
+}
+.portfolio .brdr {
+  height: 5px;
+  width: 40px;
+  background-color: #0078ff;
+}
+.portfolio .item p {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #1e1e1e;
+}
+.portfolio .item a {
+  color: #0078ff;
+}
+.portfolio .icon {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #0078ff;
+  border-radius: 50%;
+}
+.portfolio .icon i {
+  color: #0078ff;
+}
+.portfolio .item {
+  overflow: hidden;
+}
+.portfolio .card img {
+  transition: transform 1s;
+}
+.portfolio .card img:hover {
+  transform: scale(1.2, 1.2);
+}
+.portfolio .item .card {
+  overflow: hidden;
+}
+.portfolio .carousel {
+  background-image: url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+}
+.portfolio .carousel .layer2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 120, 255, 0.7);
+}
+.portfolio .carousel .icon {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+}
+.portfolio .carousel span {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 34px;
+}
+.portfolio .carousel p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.portfolio .carousel .custom1 {
+  width: 18px;
+  height: 7px;
+  transition: all 1s ease;
+}
+.portfolio .carousel .custom2 {
+  background-color: black;
+  width: 25px;
+  height: 7px;
+  transition: all 1s ease;
+}
+.portfolio .carousel .custom1:hover .custom2 {
+  background-color: black;
+  width: 25px;
+  height: 7px;
+}
+.portfolio .carousel .custom2:hover .custom1 {
+  background-color: white;
+  width: 25px;
+  height: 7px;
+}
+.blog h3 {
+  font-size: 48;
+  font-weight: 700;
+  line-height: 58px;
+  color: #1e1e1e;
+}
+.blog .brdr {
+  height: 5px;
+  width: 40px;
+  background-color: #0078ff;
+}
+.blog a {
+  font-size: 21;
+  font-weight: 500;
+  line-height: 25px;
+  color: #1e1e1e;
+}
+.blog a:hover {
+  color: #0078ff;
+  text-decoration: none;
+}
+.blog .author {
+  background-color: #f7f7f7;
+  width: 22rem;
+}
+.blog .author img {
+  width: 32px;
+  height: 32px;
+}
+.blog .car-box {
+  background-color: #0078ff;
+  border-radius: 4px;
+  width: 75px;
+  height: 30px;
+  position: absolute;
+  top: 55%;
+  left: 40%;
+}
+.blog .car-box1 {
+  background-color: #0078ff;
+  border-radius: 4px;
+  width: 95px;
+  height: 30px;
+  position: absolute;
+  top: 55%;
+  left: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  .blog .item {
+    margin-bottom: 20px;
+  }
+}
+.contact {
+  background-image: url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+}
+.contact .layer2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 120, 255, 0.7);
+}
+.contact h5 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #1e1e1e;
+  line-height: 38px;
+}
+.contact p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #4e4e4e;
+}
+.contact span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #4e4e4e;
+}
+.contact .brdr {
+  height: 5px;
+  width: 90px;
+  background-color: #0078ff;
+}
+.contact .icon-social {
+  border: 3px solid #0078ff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s;
+}
+.contact .icon-social:hover {
+  background-color: #0078ff;
+  border-color: #cde1f8;
+  color: white;
+}
+.contact .contact-detais {
+  color: #0078ff;
+}
+.contact button {
+  background-color: #0078ff;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 29px;
+}
+.contact .copyRights {
+  background-color: #0078ff;
+}
+@keyframes typing {
+  0% {
+    content: "Ceo DevFolio|";
+  }
+  1% {
+    content: "Ceo DevFoli|";
+  }
+  2% {
+    content: "Ceo DevFol|";
+  }
+  3% {
+    content: "Ceo DevFo|";
+  }
+  4% {
+    content: "Ceo DevF|";
+  }
+  5% {
+    content: "Ceo Dev|";
+  }
+  6% {
+    content: "Ceo De|";
+  }
+  7% {
+    content: "Ceo D|";
+  }
+  8% {
+    content: "Ceo |";
+  }
+  9% {
+    content: "Ce |";
+  }
+  11% {
+    content: "C |";
+  }
+  12% {
+    content: " |";
+  }
+  13% {
+    content: " W|";
+  }
+  14% {
+    content: " We|";
+  }
+  15% {
+    content: " Web|";
+  }
+  16% {
+    content: " Web D|";
+  }
+  17% {
+    content: " Web De|";
+  }
+  18% {
+    content: " Web Dev|";
+  }
+  19% {
+    content: " Web Devl|";
+  }
+  20% {
+    content: " Web Devlo|";
+  }
+  21% {
+    content: " Web Devlop|";
+  }
+  22% {
+    content: " Web Devlope|";
+  }
+  23% {
+    content: " Web Devloper|";
+  }
+  24% {
+    content: " Web Devlope|";
+  }
+  25% {
+    content: " Web Devlop|";
+  }
+  26% {
+    content: " Web Devl|";
+  }
+  27% {
+    content: " Web Dev|";
+  }
+  28% {
+    content: " Web De|";
+  }
+  29% {
+    content: " Web D|";
+  }
+  30% {
+    content: " Web |";
+  }
+  31% {
+    content: " We |";
+  }
+  31% {
+    content: " W |";
+  }
+  32% {
+    content: " |";
+  }
+  33% {
+    content: "W|";
+  }
+  34% {
+    content: "We|";
+  }
+  35% {
+    content: "Web|";
+  }
+  36% {
+    content: "Web D|";
+  }
+  37% {
+    content: "Web De|";
+  }
+  38% {
+    content: "Web Des|";
+  }
+  39% {
+    content: "Web Desi|";
+  }
+  40% {
+    content: "Web Desig|";
+  }
+  41% {
+    content: "Web Design|";
+  }
+  41% {
+    content: "Web Designe|";
+  }
+  42% {
+    content: "Web Designer|";
+  }
+  43% {
+    content: "Web Designe|";
+  }
+  44% {
+    content: "Web Design|";
+  }
+  45% {
+    content: "Web Desig|";
+  }
+  46% {
+    content: "Web Desi|";
+  }
+  47% {
+    content: "Web Des|";
+  }
+  48% {
+    content: "Web De|";
+  }
+  49% {
+    content: "Web D|";
+  }
+  50% {
+    content: "Web |";
+  }
+  51% {
+    content: "We |";
+  }
+  52% {
+    content: "W|";
+  }
+  53% {
+    content: "|";
+  }
+  54% {
+    content: "F|";
+  }
+  55% {
+    content: "Fr|";
+  }
+  56% {
+    content: "Fro|";
+  }
+  57% {
+    content: "Fron|";
+  }
+  58% {
+    content: "Front|";
+  }
+  59% {
+    content: "Fronte|";
+  }
+  60% {
+    content: "Fronten|";
+  }
+  61% {
+    content: "Frontend|";
+  }
+  62% {
+    content: "Frontend D|";
+  }
+  63% {
+    content: "Frontend De|";
+  }
+  64% {
+    content: "Frontend Dev|";
+  }
+  65% {
+    content: "Frontend Devl|";
+  }
+  66% {
+    content: "Frontend Devlo|";
+  }
+  67% {
+    content: "Frontend Devlop|";
+  }
+  68% {
+    content: "Frontend Devlope|";
+  }
+  100% {
+    content: "Frontend Devloper|";
+  }
+}
